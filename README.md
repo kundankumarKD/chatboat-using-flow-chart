@@ -1,5 +1,3 @@
-Here’s a clean and beginner-friendly **README.md** you can include with your chatbot project 👇
-
 ---
 
 # 🧠 Chatbot Flow with Socket.io & JSON
