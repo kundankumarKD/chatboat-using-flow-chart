@@ -1,0 +1,120 @@
+{
+    "id": "A",
+    "text": "Hi 👋",
+    "next": [
+        {
+            "id": "B",
+            "text": "How can I help you today?",
+            "next": [
+                {
+                    "id": "C",
+                    "text": "Book a Ticket 🎫",
+                    "next": [
+                        {
+                            "id": "G",
+                            "text": "Are you an existing user?",
+                            "next": [
+                                {
+                                    "id": "H",
+                                    "text": "Yes, Existing User",
+                                    "next": [
+                                        {
+                                            "id": "H1",
+                                            "text": "Please login to your account",
+                                            "next": [
+                                                {
+                                                    "id": "E",
+                                                    "text": "Confirm Booking ✅",
+                                                    "next": [
+                                                        {
+                                                            "id": "F",
+                                                            "text": "Thank you! 🎉 Your ticket is booked.",
+                                                            "next": []
+                                                        },
+                                                        {
+                                                            "id": "B",
+                                                            "text": "← Go back to Help",
+                                                            "next": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "I",
+                                    "text": "No, New User",
+                                    "next": [
+                                        {
+                                            "id": "I1",
+                                            "text": "Please register with your details",
+                                            "next": [
+                                                {
+                                                    "id": "E",
+                                                    "text": "Confirm Booking ✅",
+                                                    "next": [
+                                                        {
+                                                            "id": "F",
+                                                            "text": "Thank you! 🎉 Your ticket is booked.",
+                                                            "next": []
+                                                        },
+                                                        {
+                                                            "id": "B",
+                                                            "text": "← Go back to Help",
+                                                            "next": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "D",
+                    "text": "Cancel Ticket ❌",
+                    "next": [
+                        {
+                            "id": "E1",
+                            "text": "Enter your booking ID",
+                            "next": [
+                                {
+                                    "id": "E2",
+                                    "text": "Your ticket has been canceled.",
+                                    "next": [
+                                        {
+                                            "id": "B",
+                                            "text": "← Go back to Help",
+                                            "next": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "Z",
+                    "text": "Talk to Customer Support ☎️",
+                    "next": [
+                        {
+                            "id": "Z1",
+                            "text": "Connecting you to our support agent...",
+                            "next": [
+                                {
+                                    "id": "Z2",
+                                    "text": "Agent joined the chat 💬",
+                                    "next": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
